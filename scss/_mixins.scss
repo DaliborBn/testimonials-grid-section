@@ -1,0 +1,43 @@
+@mixin card-custom($color, $h3-color, $h4-color, $h2-color, $p-color) {
+  background-color: $color;
+  padding: 2.5rem 3rem;
+  border: none;
+  .card-header {
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+  }
+  img {
+    width: 3.2rem;
+    cursor: pointer;
+  }
+  .name {
+    margin-left: 1.6rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    color: $h3-color;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.1rem;
+    color: $h4-color;
+    margin-top: 0.2rem;
+  }
+  .card-body {
+    padding: 0;
+  }
+  h2 {
+    font-size: 2rem;
+    color: $h2-color;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  p {
+    font-size: 1.4rem;
+    color: $p-color;
+    font-weight: 500;
+    line-height: 1.8rem;
+  }
+}

@@ -1,0 +1,28 @@
+@media (min-width: 576px) {
+  .custom-container {
+    max-width: 120rem;
+    grid-template-areas: 
+    "daniel daniel"
+    "jonathan jeanette"
+    "patrick patrick"
+    "kira kira";
+    grid-auto-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-container {
+    grid-template-areas: 
+    "daniel daniel jonathan"
+    "jeanette patrick patrick"
+    "kira kira kira";
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-container {
+    grid-template-areas: 
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
+  }
+}

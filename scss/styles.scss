@@ -1,0 +1,49 @@
+@import 'utilities';
+@import 'mixins';
+
+.custom-container {
+  margin: 5rem 2.5rem;
+  gap: 2.5rem;
+  max-width: 50rem;
+  width: auto;
+  grid-template-areas: 
+  "daniel"
+  "jonathan"
+  "jeanette"
+  "patrick"
+  "kira";
+}
+
+.daniel {
+  @include card-custom($violet, $white, $light-gray3, $light-gray1, $light-gray2);
+  background-image: url("../dist/img/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 87% 0%;
+  img {
+    border: 0.2rem solid hsl(263, 100%, 73%);
+  }
+  grid-area: daniel;
+}
+.jonathan {
+  @include card-custom($gray-blue-light, $white, $light-gray2, $light-gray1, $light-gray2);
+  grid-area: jonathan;
+}
+.jeanette {
+  @include card-custom($white, $dark-blue, $gray-blue, $gray-blue-light, $gray-blue);
+  box-shadow: $card-shadow;
+  grid-area: jeanette;
+}
+.patrick {
+  @include card-custom($dark-blue, $white, $light-gray3, $light-gray1, $light-gray2);
+  img {
+    border: 0.2rem solid hsl(263, 100%, 73%);
+  }
+  grid-area: patrick;
+}
+.kira {
+  @include card-custom($white, $dark-blue, $gray-blue, $gray-blue-light, $gray-blue);
+  box-shadow: $card-shadow;
+  grid-area: kira;
+}
+
+@import 'responsive';
