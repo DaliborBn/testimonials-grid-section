@@ -8396,13 +8396,17 @@ body {
   gap: 2.5rem;
   max-width: 50rem;
   width: auto;
-  grid-template-areas: "daniel" "jonathan" "jeanette" "patrick" "kira"; }
+  grid-template-areas: "daniel"
+ "jonathan"
+ "jeanette"
+ "patrick"
+ "kira"; }
 
 .daniel {
   background-color: #7541c8;
   padding: 2.5rem 3rem;
   border: none;
-  background-image: url("../dist/img/bg-pattern-quotation.svg");
+  background-image: url("img/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position: 87% 0%;
   grid-area: daniel; }
@@ -8590,13 +8594,19 @@ body {
 @media (min-width: 576px) {
   .custom-container {
     max-width: 120rem;
-    grid-template-areas: "daniel daniel" "jonathan jeanette" "patrick patrick" "kira kira";
+    grid-template-areas: "daniel daniel"
+ "jonathan jeanette"
+ "patrick patrick"
+ "kira kira";
     grid-auto-columns: 1fr; } }
 
 @media (min-width: 768px) {
   .custom-container {
-    grid-template-areas: "daniel daniel jonathan" "jeanette patrick patrick" "kira kira kira"; } }
+    grid-template-areas: "daniel daniel jonathan"
+ "jeanette patrick patrick"
+ "kira kira kira"; } }
 
 @media (min-width: 992px) {
   .custom-container {
-    grid-template-areas: "daniel daniel jonathan kira" "jeanette patrick patrick kira"; } }
+    grid-template-areas: "daniel daniel jonathan kira"
+ "jeanette patrick patrick kira"; } }
