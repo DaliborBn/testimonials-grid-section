@@ -8425,7 +8425,7 @@ body {
     font-weight: 500; }
   .daniel h4, .daniel .h4 {
     font-size: 1.1rem;
-    color: rgba(207, 207, 207, 0.55);
+    color: rgba(207, 207, 207, 0.7);
     margin-top: 0.2rem; }
   .daniel .card-body {
     padding: 0; }
@@ -8437,7 +8437,7 @@ body {
     font-weight: 600; }
   .daniel p {
     font-size: 1.4rem;
-    color: rgba(207, 207, 207, 0.7);
+    color: #cfcfcf;
     font-weight: 500;
     line-height: 1.8rem; }
   .daniel img {
