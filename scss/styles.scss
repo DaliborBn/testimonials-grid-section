@@ -15,7 +15,7 @@
 }
 
 .daniel {
-  @include card-custom($violet, $white, $light-gray3, $light-gray1, $light-gray2);
+  @include card-custom($violet, $white, $light-gray2, $light-gray1, $light-gray1);
   background-image: url("img/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position: 87% 0%;
